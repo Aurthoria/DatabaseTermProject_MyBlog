@@ -1,0 +1,2 @@
+cd Myblog
+python3 manage.py runserver

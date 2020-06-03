@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{%load staticfiles %}
+{% block title %}
+图片详情
+{% endblock title%}
+{% block content %}
+<link href="{% static 'bootstrap/css/mlist.css' %}" rel="stylesheet" type="text/css" />
+<head>
+    <title>Add</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-4 mb-4"></div>
+    <div class="col-5 mb-5">
+        <br>
+    <h1>上传图片</h1>
+        <br>
+        <br>
+
+    <form method="post" enctype="multipart/form-data" action="{% url 'photo_album:photo_add' %}">
+        {% csrf_token %}
+        {{ af.as_p }}
+        <input type="submit" value="上传"/>
+    </form>
+        </div>
+</body>
+{% endblock content %}

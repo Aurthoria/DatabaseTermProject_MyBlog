@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9b7281c-7390-477b-a18e-6a53edcc5f97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bc9lwvCnNm1HJbPpN5n3NcFa7G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/my_blog" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9b7281c-7390-477b-a18e-6a53edcc5f97" name="Default Changelist" comment="" />
+      <created>1588920670048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588920670048</updated>
+      <workItem from="1588920672218" duration="71591000" />
+      <workItem from="1589146490377" duration="39903000" />
+      <workItem from="1590849038500" duration="48809000" />
+      <workItem from="1591013433369" duration="29084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="188" key="FileChooserDialogImpl" timestamp="1588954244457">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="506" y="188" key="FileChooserDialogImpl/0.0.1376.733@0.0.1376.733" timestamp="1588954244457" />
+    <state x="216" y="5" key="SettingsEditor" timestamp="1588923229479">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="216" y="5" key="SettingsEditor/0.0.1376.733@0.0.1376.733" timestamp="1588923229479" />
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1591013443263">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog/0.0.1376.733@0.0.1376.733" timestamp="1591013443263" />
+    <state x="625" y="54" width="672" height="678" key="search.everywhere.popup" timestamp="1590928918049">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="625" y="54" width="672" height="678" key="search.everywhere.popup/0.0.1376.733@0.0.1376.733" timestamp="1590928918049" />
+  </component>
+</project>

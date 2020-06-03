@@ -1,0 +1,56 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% load staticfiles %}
+<!-- 写入 base.html 中定义的 title -->
+{% block title %}
+    我的博客
+{% endblock title %}
+<!-- 写入 base.html 中定义的 content -->
+{% block content %}
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-4 mb-4"></div>
+    <div class="col-4 mb-4"></div>
+      <div class="col-4 mb-4">
+          <form class="form-inline my-2 my-lg-0" role="search" method="get" action="{% url 'photo_album:photo_search' %}">
+            {% csrf_token %}
+            <div class="input-group">
+          <input type="search" class="form-control" name="q" placeholder="图片名检索" required>
+          <span class="input-group-btn">
+        <button type="submit" class="btn btn-secondary">搜索</button>
+        </span>
+            </div><!-- /input-group -->
+        </form>
+      </div>
+  </div>
+  </div>
+
+<!-- 定义放置图片的div容器 -->
+<link href="{% static 'bootstrap/css/mlist.css' %}?v1.0.1" rel="stylesheet" type="text/css" />
+<div class="container">
+    <div class="row mt-2">
+        {% for photo in photos %}
+        <!-- 文章内容 -->
+        <div class="col-3 mb-3">
+        <!-- 卡片容器 -->
+            <div class="card h-100">
+                <!-- 标题 -->
+                <h4 class="card-header">{{ photo.name }}</h4>
+                <!-- 摘要 -->
+                <img class="card-img-top" src="/media/{{ photo.path }}" alt="Card image cap">
+                <div>
+                      <span class="box3" >Time:{{ photo.created_at |date:"Y /m /d"}}</span>
+                </div>
+                <!-- 注脚 -->
+                <div class="card-footer">
+                    <a href="{% url 'photo_album:photo_detail' photo.id %}" class="btn btn-primary">查看大图</a>
+                    <a href="{% url 'photo_album:photo_delete' photo.id %}" class="btn btn-primary">删除图片</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}
